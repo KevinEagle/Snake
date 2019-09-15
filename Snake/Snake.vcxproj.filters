@@ -18,13 +18,42 @@
     <ClInclude Include="pch.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
     <ClCompile Include="Snake.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Snake.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
